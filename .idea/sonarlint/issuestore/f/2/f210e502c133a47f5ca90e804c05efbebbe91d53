@@ -1,5 +1,0 @@
-
-	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(ÚƒÄ…ùÿÿÿÿ8š™ «2J$dd8def3a-0105-4f2a-a6e6-8887b5300b37
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¿ñ™ÉüÿÿÿÿJ$711b8424-c2ce-4329-b635-47c814887869
-}
-java:S1118":Add a private constructor to hide the implicit public one.(ï—‘á8‰øîŸ«2J$9eafe0cf-ff74-4b87-8f8b-ef2bda39390c

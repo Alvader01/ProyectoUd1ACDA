@@ -2,7 +2,7 @@ package com.github.alvader01.Test;
 
 import com.github.alvader01.Model.entity.Contact;
 import com.github.alvader01.Model.entity.User;
-import com.github.alvader01.Utils.UserXMLManager;
+import com.github.alvader01.Model.XML.UserXMLManager;
 
 
 import java.io.File;

@@ -1,12 +1,12 @@
 
 
-java:S1192"HDefine a constant instead of duplicating this literal "Alvader" 3 times.(ÎİÈıÿÿÿÿ8·”‰Ÿ«2J$27ff695a-6e31-4652-8816-cfdf4d847fde
+java:S1192"HDefine a constant instead of duplicating this literal "Alvader" 3 times.(ÎİÈıÿÿÿÿ8·”‰Ÿ«2J$1240bfee-5a19-4778-a8ce-761907830ebf
 
-java:S1192"JDefine a constant instead of duplicating this literal "Tejederas" 3 times.(–ç¼”8¸”‰Ÿ«2J$7d084443-4ea5-42f4-b952-99c58f89e6b3
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÀêš8¹”‰Ÿ«2J$3273c32a-7101-491b-abdc-d45d912138de
-m	java:S106)"+Replace this use of System.out by a logger.(óºç˜8Ê”‰Ÿ«2J$c470e14d-179d-4e68-b3e4-0b81d2b5211d
-r	java:S106,"+Replace this use of System.out by a logger.(İÈ­ğşÿÿÿÿ8Ë”‰Ÿ«2J$0d98580f-0308-468e-ac3d-1d6e83dbb48e
-m	java:S1063"+Replace this use of System.out by a logger.(¤Ï×¤8Ì”‰Ÿ«2J$8fe59bce-41cc-4a49-8b57-f0bb93c5850b
-m	java:S1065"+Replace this use of System.out by a logger.(èôı…8Ì”‰Ÿ«2J$5db9843d-866f-4efe-aa7e-7181e5c2925f
-m	java:S106:"+Replace this use of System.out by a logger.(ÆÏˆŞ8Î”‰Ÿ«2J$1c909e14-f3f9-477b-ab1c-37f76811eccb
-m	java:S106<"+Replace this use of System.out by a logger.(ÿá¨é8Î”‰Ÿ«2J$2c9ae41e-a795-4b10-bc9e-8767f6980195
+java:S1192"JDefine a constant instead of duplicating this literal "Tejederas" 3 times.(–ç¼”8¸”‰Ÿ«2J$b1b0694e-a332-4d15-92c1-53d486b941fa
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÀêš8¹”‰Ÿ«2J$a4fa5544-9cfe-4751-9cf6-1058d237f871
+m	java:S106)"+Replace this use of System.out by a logger.(óºç˜8Ê”‰Ÿ«2J$3b2b6916-ab32-4055-bd0a-11c9ac79733d
+r	java:S106,"+Replace this use of System.out by a logger.(İÈ­ğşÿÿÿÿ8Ë”‰Ÿ«2J$5ee86c7d-120a-4309-ad30-dbb813fe3a20
+m	java:S1063"+Replace this use of System.out by a logger.(¤Ï×¤8Ì”‰Ÿ«2J$8dd4c913-282d-4b01-af11-896d7233e749
+m	java:S1065"+Replace this use of System.out by a logger.(èôı…8Ì”‰Ÿ«2J$8b3d70bc-3155-4350-8fa5-2614e98e7dd8
+m	java:S106:"+Replace this use of System.out by a logger.(ÆÏˆŞ8Î”‰Ÿ«2J$6c00b1de-dca8-44e4-95db-6654d37621ce
+m	java:S106<"+Replace this use of System.out by a logger.(ÿá¨é8Î”‰Ÿ«2J$30059d7d-2095-4919-8040-8e836221df41

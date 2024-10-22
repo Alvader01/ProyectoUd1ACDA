@@ -1,39 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <users>
     <user>
-        <contacts>
-            <username>Tejederas</username>
-        </contacts>
-        <contacts>
-            <username>Tejederas</username>
-        </contacts>
-        <email>alvader01@gmail.com</email>
-        <name>Alvaro</name>
-        <password>Alvader01</password>
-        <username>Alvader</username>
-    </user>
-    <user>
-        <email>tejederas@gmail.com</email>
-        <name>Alfonso</name>
-        <password>Tejederas</password>
-        <username>Tejederas</username>
-    </user>
-    <user>
-        <email>alvader01@gmail.com</email>
-        <name>Alvaro</name>
-        <password>Alvader01</password>
-        <username>Alvader</username>
-    </user>
-    <user>
-        <email>tejederas@gmail.com</email>
-        <name>Alfonso</name>
-        <password>Tejederas</password>
-        <username>Tejederas</username>
-    </user>
-    <user>
-        <email>Carlillos6@gmail.com</email>
-        <name>Carlos</name>
-        <password>Carlillos6</password>
-        <username>Carlillos6</username>
+        <email>aa@gmail.com</email>
+        <name>aa</name>
+        <password>8ca4869765a3cb326fc1f0caa5ef4b6c6597291c48bea228dd12ba4bc315ad07</password>
+        <username>aa</username>
     </user>
 </users>
