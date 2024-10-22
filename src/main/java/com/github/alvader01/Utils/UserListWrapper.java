@@ -1,8 +1,8 @@
 package com.github.alvader01.Utils;
 
 import com.github.alvader01.Model.entity.User;
-import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlRootElement;
 
 import java.util.List;
 

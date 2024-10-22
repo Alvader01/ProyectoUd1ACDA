@@ -1,0 +1,15 @@
+
+j
+java:S1192"HDefine a constant instead of duplicating this literal "Alvader" 5 times.(ýÄÔÑûÿÿÿÿ8Æ–õ «2
+i
+java:S1192"GDefine a constant instead of duplicating this literal "Carlos" 3 times.(ö¸Ô²þÿÿÿÿ8Ç–õ «2
+l
+java:S1192"JDefine a constant instead of duplicating this literal "Tejederas" 4 times.(ûÝ‘Žúÿÿÿÿ8Ç–õ «2
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÀêšJ$3ff2bebc-cc7f-4302-8277-ac00a4280422
+L	java:S106*"+Replace this use of System.out by a logger.(¦½“øüÿÿÿÿ8Ô–õ «2
+G	java:S106."+Replace this use of System.out by a logger.(¤Ø”Ý8Õ–õ «2
+F	java:S1062"+Replace this use of System.out by a logger.( €‰+8Õ–õ «2
+G	java:S106>"+Replace this use of System.out by a logger.(×Â†Ú8×–õ «2
+‚	java:S899F";Do something with the "boolean" value returned by "delete".(‚ÜÓ¶úÿÿÿÿ8û¶Œ «2J$6a376849-7362-4cb1-ab13-24d339ef1914
+–
+java:S4042F"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(‚ÜÓ¶úÿÿÿÿ8û¶Œ «2J$21d14749-7b94-4c16-9c12-3a332c688591
