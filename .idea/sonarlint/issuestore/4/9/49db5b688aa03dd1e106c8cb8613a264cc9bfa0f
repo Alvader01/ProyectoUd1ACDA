@@ -1,0 +1,13 @@
+
+Ä
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(È©Šþ8Ë¬ô§«2J$6132e20d-0bc8-4aaa-b04d-666ac1809b83
+Ä
+java:S1186)"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“Â¬®8Ë¬ô§«2J$dbe9538a-03a2-4d7e-8ba2-7ffaca0a18d0
+Ä
+java:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±—ó‚8Ë¬ô§«2J$a81cad0d-0f0f-4919-9748-392acb3ceafc
+•	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¶üŠùÿÿÿÿ8Ð¬ô§«2J$8aa4cba2-34a5-44fc-9467-3fa35c635050
+Ž
+java:S5998i"LRefactor this repetition that can lead to a stack overflow for large inputs.(õæˆB8Õ¬ô§«2J$600d9961-e972-4ec5-8c61-e1753ea346e7
+	java:S100q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÒ§Ú8Õ¬ô§«2J$b55832f3-f29f-465c-8132-f7c512942a4f
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¨€ñ¨«2J$7709c364-0e9a-4e00-b993-ebe079fc7df3

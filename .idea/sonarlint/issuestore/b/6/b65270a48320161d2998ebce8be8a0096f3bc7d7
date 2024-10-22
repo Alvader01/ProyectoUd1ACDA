@@ -1,0 +1,16 @@
+
+‰
+java:S1192O"FDefine a constant instead of duplicating this literal "Error" 6 times.(µûø–8ñƒ¡¢«2J$9cab895b-daf4-4f7d-9fe7-2b1c959007c0
+“	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øî²ı8óƒ¡¢«2J$d3d2f385-cc23-46e0-b3da-17697c363240
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£íñƒÿÿÿÿÿ8ğÀ¡¢«2J$8f1c8fb4-13e9-47d1-ad82-76dab604842e
+É
+java:S1186?"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÛŒ¦…ıÿÿÿÿ8„¡¢«2J$89592262-c571-4a8d-b58f-264b3fb97407
+¡
+java:S1450"_Remove the "centerController" field and declare it as a local variable in the relevant methods.(™•À%8’„¡¢«2J$f917d630-f7dc-495b-a9fe-57a630eedb74
+•	java:S100N"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ½şüÿÿÿÿ8¥„¡¢«2J$564aac7c-fb45-4997-8897-74c177534f72
+•	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÜÿ®ùÿÿÿÿ8¨„¡¢«2J$9806e071-0e17-46bf-b413-8f0b9446f87b
+	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğà¡8ª„¡¢«2J$c3bd0c59-268a-4499-a2dc-0bd952b4b8f4
+•	java:S100]"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÛ¡öüÿÿÿÿ8­„¡¢«2J$c3eb470d-33ef-49a2-a2fa-66c504f6bc12
+•	java:S100b"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…’¶ şÿÿÿÿ8®„¡¢«2J$1078a564-5b03-49e7-b249-27c6f1b402f7
+•	java:S100h"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”èøøÿÿÿÿ8¯„¡¢«2J$2b1335cd-ff63-4ab5-b16b-d4c43555689b
+	java:S100o"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†´ºû8¯„¡¢«2J$0a5d2b15-f7b1-4e9b-8d7e-8997abc55b1d

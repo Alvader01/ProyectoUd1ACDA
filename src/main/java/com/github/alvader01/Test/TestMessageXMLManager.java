@@ -2,7 +2,7 @@ package com.github.alvader01.Test;
 
 import com.github.alvader01.Model.entity.Message;
 import com.github.alvader01.Model.entity.User;
-import com.github.alvader01.Utils.MessageXMLManager;
+import com.github.alvader01.Model.XML.MessageXMLManager;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;
