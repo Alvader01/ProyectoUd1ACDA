@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+    <message>
+        <content>Hola Tejederas, ¿cómo estás?</content>
+        <recipient>Tejederas</recipient>
+        <sender>Alvader</sender>
+        <timestamp>2024-10-22 10:00</timestamp>
+    </message>
+    <message>
+        <content>Hola Alvader, estoy bien, gracias.</content>
+        <recipient>Alvader</recipient>
+        <sender>Tejederas</sender>
+        <timestamp>2024-10-22 10:05</timestamp>
+    </message>
+    <message>
+        <content>Hola Carlos, ¿te unes a la conversación?</content>
+        <recipient>Carlos</recipient>
+        <sender>Alvader</sender>
+        <timestamp>2024-10-22 10:10</timestamp>
+    </message>
+</messages>

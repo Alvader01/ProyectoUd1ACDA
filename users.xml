@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <users>
     <user>
+        <contacts>
+            <username>Tejederas</username>
+        </contacts>
+        <contacts>
+            <username>Tejederas</username>
+        </contacts>
         <email>alvader01@gmail.com</email>
         <name>Alvaro</name>
         <password>Alvader01</password>
@@ -11,5 +17,23 @@
         <name>Alfonso</name>
         <password>Tejederas</password>
         <username>Tejederas</username>
+    </user>
+    <user>
+        <email>alvader01@gmail.com</email>
+        <name>Alvaro</name>
+        <password>Alvader01</password>
+        <username>Alvader</username>
+    </user>
+    <user>
+        <email>tejederas@gmail.com</email>
+        <name>Alfonso</name>
+        <password>Tejederas</password>
+        <username>Tejederas</username>
+    </user>
+    <user>
+        <email>Carlillos6@gmail.com</email>
+        <name>Carlos</name>
+        <password>Carlillos6</password>
+        <username>Carlillos6</username>
     </user>
 </users>

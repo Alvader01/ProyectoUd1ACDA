@@ -1,6 +1,12 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÀêš8„æ¦÷©2J$df4954f9-de5d-42a5-a675-6bd2f4fe8705
-m	java:S106"+Replace this use of System.out by a logger.(ó°“8œìÑ÷©2J$bd4c8454-855b-4ae9-bd73-01722e92439a
-r	java:S106"+Replace this use of System.out by a logger.(†íûîùÿÿÿÿ8ìÑ÷©2J$1d812c9a-ea7f-4ac2-9994-ad2850de4f39
-m	java:S106%"+Replace this use of System.out by a logger.(æ‘²˜8ŸìÑ÷©2J$c49f3ab4-f95f-4743-8553-9d84cc686d7e
-r	java:S106'"+Replace this use of System.out by a logger.(„ëÅ²úÿÿÿÿ8Œ±é÷©2J$4dc3abe0-3a34-4881-b12b-4c39d92e6e89
+
+java:S1192"HDefine a constant instead of duplicating this literal "Alvader" 3 times.(ÎİÈıÿÿÿÿ8·”‰Ÿ«2J$27ff695a-6e31-4652-8816-cfdf4d847fde
+
+java:S1192"JDefine a constant instead of duplicating this literal "Tejederas" 3 times.(–ç¼”8¸”‰Ÿ«2J$7d084443-4ea5-42f4-b952-99c58f89e6b3
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÀêš8¹”‰Ÿ«2J$3273c32a-7101-491b-abdc-d45d912138de
+m	java:S106)"+Replace this use of System.out by a logger.(óºç˜8Ê”‰Ÿ«2J$c470e14d-179d-4e68-b3e4-0b81d2b5211d
+r	java:S106,"+Replace this use of System.out by a logger.(İÈ­ğşÿÿÿÿ8Ë”‰Ÿ«2J$0d98580f-0308-468e-ac3d-1d6e83dbb48e
+m	java:S1063"+Replace this use of System.out by a logger.(¤Ï×¤8Ì”‰Ÿ«2J$8fe59bce-41cc-4a49-8b57-f0bb93c5850b
+m	java:S1065"+Replace this use of System.out by a logger.(èôı…8Ì”‰Ÿ«2J$5db9843d-866f-4efe-aa7e-7181e5c2925f
+m	java:S106:"+Replace this use of System.out by a logger.(ÆÏˆŞ8Î”‰Ÿ«2J$1c909e14-f3f9-477b-ab1c-37f76811eccb
+m	java:S106<"+Replace this use of System.out by a logger.(ÿá¨é8Î”‰Ÿ«2J$2c9ae41e-a795-4b10-bc9e-8767f6980195
