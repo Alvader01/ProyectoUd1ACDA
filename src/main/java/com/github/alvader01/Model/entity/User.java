@@ -1,8 +1,11 @@
 package com.github.alvader01.Model.entity;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
@@ -13,8 +16,11 @@ public class User {
     private String password;
     private String email;
     private List<Contact> contacts;
+    private List<Message> messages;
 
     public User() {
+        contacts = new ArrayList<>();
+        messages = new ArrayList<>();
     }
 
     public User(String username, String name, String password, String email) {
@@ -22,8 +28,9 @@ public class User {
         this.name = name;
         this.password = password;
         this.email = email;
+        this.contacts = new ArrayList<>();
+        this.messages = new ArrayList<>();
     }
-
 
     @XmlElement
     public String getUsername() {
@@ -62,13 +69,23 @@ public class User {
     }
 
     @XmlElement
-    public List<Contact> getContacts() {
+    public List<Contact> getContacts() { // Cambiar a List
         return contacts;
     }
 
     public void setContacts(List<Contact> contacts) {
         this.contacts = contacts;
     }
+
+    @XmlElement
+    public List<Message> getMessages() { // Cambiar a List
+        return messages;
+    }
+
+    public void setMessages(List<Message> messages) {
+        this.messages = messages;
+    }
+
 
     @Override
     public boolean equals(Object o) {
@@ -93,4 +110,3 @@ public class User {
                 '}';
     }
 }
-

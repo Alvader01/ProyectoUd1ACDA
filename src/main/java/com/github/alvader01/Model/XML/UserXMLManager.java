@@ -3,6 +3,8 @@ package com.github.alvader01.Model.XML;
 import com.github.alvader01.Model.entity.Contact;
 import com.github.alvader01.Model.entity.User;
 import com.github.alvader01.Utils.PasswordHasher;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.Marshaller;
@@ -33,14 +35,14 @@ public class UserXMLManager {
         }
     }
 
-    public static List<Contact> getContactsByUsername(String username) throws Exception {
+    public static ObservableList<Contact> getContactsByUsername(String username) throws Exception {
         List<User> users = getUsers();
         for (User user : users) {
             if (user.getUsername().equals(username)) {
-                return user.getContacts() != null ? user.getContacts() : new ArrayList<>();
+                return user.getContacts() != null ? FXCollections.observableArrayList(user.getContacts()) : FXCollections.observableArrayList();
             }
         }
-        return new ArrayList<>();
+        return FXCollections.observableArrayList();
     }
 
     public static void addContactToUser(String username, Contact contact) throws Exception {
@@ -48,7 +50,7 @@ public class UserXMLManager {
         for (User user : users) {
             if (user.getUsername().equals(username)) {
                 if (user.getContacts() == null) {
-                    user.setContacts(new ArrayList<>());
+                    user.setContacts(FXCollections.observableArrayList());
                 }
                 user.getContacts().add(contact);
                 saveUsers(users);
@@ -75,12 +77,13 @@ public class UserXMLManager {
                 if (hashedInputPassword.equals(user.getPassword())) {
                     return user;
                 } else {
-                    throw new Exception("Contraseña incorrecta.");
+                    throw new Exception();
                 }
             }
         }
-        throw new Exception("Usuario no encontrado.");
+        throw new Exception();
     }
+
     public static boolean exists(String username) throws Exception {
         List<User> users = getUsers();
         for (User user : users) {
@@ -88,16 +91,6 @@ public class UserXMLManager {
                 return true;
             }
         }
-        return false; // Devuelve false si el usuario no está en la lista
+        return false;
     }
-    public static User getUserByUsername(String username) throws Exception {
-        List<User> users = getUsers();
-        for (User user : users) {
-            if (user.getUsername().equals(username)) {
-                return user;
-            }
-        }
-        return null;
-}
-
 }

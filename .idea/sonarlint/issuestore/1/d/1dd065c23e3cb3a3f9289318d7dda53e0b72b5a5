@@ -1,7 +1,12 @@
 
-Ä
-java:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷’²É8îÁÛª«2J$ddf91646-a9d4-4fa5-98a1-ba8c5d6ab863
+	java:S112w"FDefine and throw a dedicated exception instead of using a generic one.(‰æîóûÿÿÿÿ8­ôĞ«2J$ebc4c925-521e-442e-81de-e1478123e16e
+‰	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(„ñÌË8­ôĞ«2J$f6ac6327-7370-4a16-91f9-315ff1848c5b
+š	java:S1164"XRename this field "AnalyzeButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ñš„8·®ôĞ«2J$122e4c0d-5885-4cb2-adb7-a19d6a4d1ba3
 É
-java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8àúÄª«2J$6bfd10b1-a076-4352-990f-cd8ded8549d3
-É
-java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(•‘İŸüÿÿÿÿ8ïÁÛª«2J$b37eaf23-81af-44d4-9df5-f42837af64e2
+java:S1186E"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯®Òêúÿÿÿÿ8¸®ôĞ«2J$a9a06ee9-9783-4e9a-a4c7-333428431a28
+„
+java:S1117j"<Rename "username" which hides the field declared at line 29.(†¾êûøÿÿÿÿ8½®ôĞ«2J$8e4ffc7a-4af2-404b-a592-a7dc0afeca5b
+´
+java:S1130w"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(‰æîóûÿÿÿÿ8¾®ôĞ«2J$ba0fe9bf-788a-4ae8-b5a7-638023a773ea
+›
+java:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(…Ø·¿øÿÿÿÿ8É®ôĞ«2J$6e52bb1e-5e8c-4bac-808b-d7106b92db9a

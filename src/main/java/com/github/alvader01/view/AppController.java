@@ -29,18 +29,18 @@ public class AppController extends Controller implements Initializable {
     static Alert alertInfoRegister= new Alert(Alert.AlertType.INFORMATION);
 
     @Override
-    public void onOpen(Object input) throws IOException {
+    public void onOpen(Object input) throws Exception {
         changeScene(Scenes.LOGIN,null);
     }
 
-    public void changeScene(Scenes scene,Object data) throws IOException {
+    public void changeScene(Scenes scene,Object data) throws Exception {
         View view = loadFXML(scene);
         borderPane.setCenter(view.scene);
         this.centerController = view.controller;
         this.centerController.onOpen(data);
     }
 
-    public void openModal(Scenes scene, String title,Controller parent, Object data) throws IOException {
+    public void openModal(Scenes scene, String title,Controller parent, Object data) throws Exception {
         View view = loadFXML(scene);
         Stage stage = new Stage();
         stage.setTitle(title);
@@ -74,12 +74,57 @@ public class AppController extends Controller implements Initializable {
         view.controller=c;
         return view;
     }
-
+    public static void ShowAlertsSuccessfullyGeneratedtxt(){
+        alert2.setTitle("Exito");
+        alert2.setContentText("Archivo txt generado con exito");
+        alert2.showAndWait();
+    }
+    public static void ShowAlertsSuccessfullyAddedContact(){
+        alert2.setTitle("Exito");
+        alert2.setContentText("Contacto agregado con exito");
+        alert2.showAndWait();
+    }
     public static void ShowAlertsErrorLogin(){
         alert.setTitle("Error");
         alert.setContentText("Usuario o contraseña incorrectos");
         alert.showAndWait();
     }
+    public static void ShowAlertsContactNotFound(){
+        alert.setTitle("Error");
+        alert.setContentText("Contacto no encontrado");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsContactAlreadyExists(){
+        alert.setTitle("Error");
+        alert.setContentText("El contacto ya existe");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsErrorGeneratedtxt(){
+        alert.setTitle("Error");
+        alert.setContentText("No se pudo generar el archivo txt");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsErrorMessageEmpty(){
+        alert.setTitle("Error");
+        alert.setContentText("El campo de texto no puede estar vacio");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsErrorContactEmpty(){
+        alert.setTitle("Error");
+        alert.setContentText("Tienes que seleccionar un contacto");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsErrorContact(){
+        alert.setTitle("Error");
+        alert.setContentText("No hay contacto seleccionado.");
+        alert.showAndWait();
+    }
+    public static void ShowAlertsErrorMessage(){
+        alert.setTitle("Error");
+        alert.setContentText("Error al cargar los mensajes");
+        alert.showAndWait();
+    }
+
     public static void ShowAlertsErrorLoginPassword(){
         alert.setTitle("Error");
         alert.setContentText("La contraseña es incorrecta");

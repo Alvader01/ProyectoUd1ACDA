@@ -1,21 +1,63 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
     <message>
-        <content>Hola Tejederas, ¿cómo estás?</content>
-        <recipient>Tejederas</recipient>
-        <sender>Alvader</sender>
-        <timestamp>2024-10-22 10:00</timestamp>
+        <content>hola bb como estas?</content>
+        <recipient>bb</recipient>
+        <sender>aa</sender>
+        <timestamp>2024-10-23 15:58:15</timestamp>
     </message>
     <message>
-        <content>Hola Alvader, estoy bien, gracias.</content>
-        <recipient>Alvader</recipient>
-        <sender>Tejederas</sender>
-        <timestamp>2024-10-22 10:05</timestamp>
+        <content>Bien y tu como estas?</content>
+        <recipient>aa</recipient>
+        <sender>bb</sender>
+        <timestamp>2024-10-23 15:58:29</timestamp>
     </message>
     <message>
-        <content>Hola Carlos, ¿te unes a la conversación?</content>
-        <recipient>Carlos</recipient>
-        <sender>Alvader</sender>
-        <timestamp>2024-10-22 10:10</timestamp>
+        <content>hi</content>
+        <recipient>bb</recipient>
+        <sender>aa</sender>
+        <timestamp>2024-10-23 16:11:35</timestamp>
+    </message>
+    <message>
+        <content>Hola cc</content>
+        <recipient>cc</recipient>
+        <sender>bb</sender>
+        <timestamp>2024-10-23 16:22:38</timestamp>
+    </message>
+    <message>
+        <content>Hi</content>
+        <recipient>bb</recipient>
+        <sender>cc</sender>
+        <timestamp>2024-10-23 16:34:00</timestamp>
+    </message>
+    <message>
+        <content>hola</content>
+        <recipient>aa</recipient>
+        <sender>bb</sender>
+        <timestamp>2024-10-23 17:50:54</timestamp>
+    </message>
+    <message>
+        <content>hola</content>
+        <recipient>aa</recipient>
+        <sender>bb</sender>
+        <timestamp>2024-10-23 17:50:58</timestamp>
+    </message>
+    <message>
+        <content>aaa</content>
+        <recipient>aa</recipient>
+        <sender>bb</sender>
+        <timestamp>2024-10-23 17:50:59</timestamp>
+    </message>
+    <message>
+        <content>aaaaa</content>
+        <recipient>aa</recipient>
+        <sender>bb</sender>
+        <timestamp>2024-10-23 17:51:02</timestamp>
+    </message>
+    <message>
+        <content>SUUUUUUUUUU</content>
+        <recipient>bb</recipient>
+        <sender>aa</sender>
+        <timestamp>2024-10-23 18:18:11</timestamp>
     </message>
 </messages>

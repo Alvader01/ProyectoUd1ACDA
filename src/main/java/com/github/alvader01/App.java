@@ -20,7 +20,7 @@ public class App extends Application {
     public static AppController currentController;
 
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage) throws Exception {
         View view = AppController.loadFXML(Scenes.LAYOUT);
         scene = new Scene(view.scene, 764, 486);
         currentController = (AppController) view.controller;

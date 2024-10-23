@@ -106,7 +106,7 @@ public class RegisterController extends Controller implements Initializable {
         return email.matches(emailRegex);
     }
 
-    public void changeSceneToLoginPage() throws IOException {
+    public void changeSceneToLoginPage() throws Exception {
         App.currentController.changeScene(Scenes.LOGIN, null);
     }
 

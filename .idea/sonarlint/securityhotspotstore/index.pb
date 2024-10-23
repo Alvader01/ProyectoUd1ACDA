@@ -59,3 +59,5 @@ o
 ?src/main/java/com/github/alvader01/view/RegisterController.java,4\9\49db5b688aa03dd1e106c8cb8613a264cc9bfa0f
 o
 ?src/main/java/com/github/alvader01/view/MainPageController.java,1\d\1dd065c23e3cb3a3f9289318d7dda53e0b72b5a5
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

@@ -2,6 +2,8 @@ package com.github.alvader01.Model.entity;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 
@@ -10,8 +12,8 @@ public class Contact {
     private String email;
     private String name;
     private String username;
+    private List<Message> messages;
 
-    // Constructor vacío
     public Contact() {
     }
 
@@ -19,7 +21,10 @@ public class Contact {
         this.email = email;
         this.name = name;
         this.username = username;
+        this.messages = new ArrayList<>();
     }
+
+    // Getters y setters
 
     @XmlElement
     public String getEmail() {
@@ -47,6 +52,16 @@ public class Contact {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    @XmlElement
+    public List<Message> getMessages() {
+        return messages;
+    }
+
+    public void setMessages(List<Message> messages) {
+        this.messages = messages;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

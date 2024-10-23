@@ -90,11 +90,11 @@ public class LoginController extends Controller implements Initializable {
 
 
 
-    public void changeSceneToMainPage() throws IOException{
+    public void changeSceneToMainPage() throws Exception {
         App.currentController.changeScene(Scenes.MAIN,null);
     }
 
-    public void changeSceneToRegister() throws IOException{
+    public void changeSceneToRegister() throws Exception {
         App.currentController.changeScene(Scenes.REGISTER,null);
     }
 

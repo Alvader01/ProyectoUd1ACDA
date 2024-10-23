@@ -1,2 +1,6 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İ¾—Å8´Ñ¤Ÿ«2J$8e5c65df-780e-49d4-9757-1f1fc032b4a1
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İ¾—Å8İ«âË«2J$2d3a7522-3a40-4cf9-9d75-6239ab35b812
+€
+java:S1128"=Remove this unused import 'javafx.collections.FXCollections'.(´¶²Æ8ÜÕÛÍ«2J$48435da8-d709-4977-90e0-3d0048e38041
+†
+java:S1128">Remove this unused import 'javafx.collections.ObservableList'.(ÄÜ€éüÿÿÿÿ8ÜÕÛÍ«2J$4d7257b1-1b55-4993-8a7d-aa4440f6c589
