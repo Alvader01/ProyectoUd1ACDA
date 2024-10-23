@@ -20,20 +20,20 @@
          <items>
             <VBox prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <Text fx:id="username" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" textAlignment="CENTER" wrappingWidth="466.9367561340332">
+                  <Text fx:id="username" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="466.9367561340332">
                      <font>
                         <Font name="Arial" size="14.0" />
                      </font>
                   </Text>
                   <ScrollPane fx:id="scrollPane" prefHeight="327.0" prefWidth="439.0">
                      <content>
-                        <VBox fx:id="vBoxMensajes" />
+                        <VBox fx:id="messagesVBox" />
                      </content>
                   </ScrollPane>
                   <HBox prefHeight="58.0" prefWidth="468.0">
                      <children>
                         <TextField fx:id="messageTextField" prefHeight="26.0" prefWidth="417.0" promptText="Escribe tu mensaje" />
-                        <Button fx:id="buttonSend" mnemonicParsing="false" text="Enviar" />
+                        <Button fx:id="buttonSend" mnemonicParsing="false" onAction="#sendMessage" text="Enviar" />
                      </children>
                   </HBox>
                </children>
@@ -48,18 +48,15 @@
                         <Insets />
                      </VBox.margin>
                   </ImageView>
-                  <ImageView fx:id="download" fitHeight="40.0" fitWidth="47.0" pickOnBounds="true" preserveRatio="true" translateX="90.0" translateY="-40.0">
+                  <ImageView fx:id="download" fitHeight="40.0" fitWidth="47.0" onMouseClicked="#exportConversation" pickOnBounds="true" preserveRatio="true" translateX="90.0" translateY="-40.0">
                      <image>
                         <Image url="@Descargar.png" />
                      </image>
                   </ImageView>
+                  <Button fx:id="AnalyzeButton" mnemonicParsing="false" onAction="#analyzeConversation" prefWidth="174.0" text="Descargar analisis" translateY="-35.0" />
                   <ListView fx:id="contactListView" prefHeight="318.0" prefWidth="168.0" />
                   <TextField fx:id="usernameField" prefHeight="26.0" prefWidth="420.0" promptText="Username" />
-                  <HBox prefHeight="26.0" prefWidth="196.0">
-                     <children>
-                        <Button fx:id="buttonNewContact" mnemonicParsing="false" prefHeight="26.0" prefWidth="170.0" text="Añadir Contacto" />
-                     </children>
-                  </HBox>
+                  <Button fx:id="buttonNewContact" mnemonicParsing="false" onAction="#addNewContact" prefHeight="26.0" prefWidth="170.0" text="Añadir Contacto" />
                </children>
             </VBox>
          </items>

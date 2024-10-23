@@ -2,6 +2,8 @@ package com.github.alvader01.Model.entity;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 @XmlRootElement(name = "message")
 public class Message {
@@ -10,13 +12,18 @@ public class Message {
     private String content;
     private String timestamp;
 
-    public Message() {}
+    public Message() {
+        this.timestamp = generateTimestamp();
+    }
 
-    public Message(String sender, String recipient, String content, String timestamp) {
+    public Message(String sender, String recipient, String content) {
         this.sender = sender;
         this.recipient = recipient;
         this.content = content;
-        this.timestamp = timestamp;
+        this.timestamp = generateTimestamp();
+    }
+    private String generateTimestamp() {
+        return new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
     }
 
     @XmlElement
@@ -54,5 +61,4 @@ public class Message {
     public void setTimestamp(String timestamp) {
         this.timestamp = timestamp;
     }
-
 }

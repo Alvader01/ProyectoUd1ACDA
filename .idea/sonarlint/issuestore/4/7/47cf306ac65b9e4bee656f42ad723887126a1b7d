@@ -1,15 +1,9 @@
 
-
-java:S1192"HDefine a constant instead of duplicating this literal "Alvader" 5 times.(ýÄÔÑûÿÿÿÿ8Æ–õ «2J$3bfeb42f-97d6-4b6a-9cb4-de7cb9101cd7
-
-java:S1192"GDefine a constant instead of duplicating this literal "Carlos" 3 times.(ö¸Ô²þÿÿÿÿ8Ç–õ «2J$1fe29c65-876c-4269-8d27-d76cd45e0409
-’
-java:S1192"JDefine a constant instead of duplicating this literal "Tejederas" 4 times.(ûÝ‘Žúÿÿÿÿ8Ç–õ «2J$0b9f68b1-e33b-4151-8aa4-b684160309f8
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÀêšJ$d74a9085-119e-48ba-99b8-9dcc21c92c67
-r	java:S106*"+Replace this use of System.out by a logger.(¦½“øüÿÿÿÿ8Ô–õ «2J$55bd674f-7ef0-4d4c-9c41-5e93e0873bd1
-m	java:S106."+Replace this use of System.out by a logger.(¤Ø”Ý8Õ–õ «2J$3c08f836-6da7-43cd-86bd-32a01e372b51
-l	java:S1062"+Replace this use of System.out by a logger.( €‰+8Õ–õ «2J$bacd0e4a-22fc-46fb-a5bd-b9e61feab7a5
-m	java:S106>"+Replace this use of System.out by a logger.(×Â†Ú8×–õ «2J$78449696-b8c2-47ce-9b49-c15f45c90cf7
-‚	java:S899F";Do something with the "boolean" value returned by "delete".(‚ÜÓ¶úÿÿÿÿ8û¶Œ «2J$da292a9c-216f-43f8-895d-99c797b16462
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄÀêšJ$8985c405-d16f-431e-b1f7-5ec186d2566c
+r	java:S106'"+Replace this use of System.out by a logger.(¦½“øüÿÿÿÿ8Ô–õ «2J$c953f27b-fc05-443c-b36f-0e7c70061c91
+m	java:S106+"+Replace this use of System.out by a logger.(¤Ø”Ý8Õ–õ «2J$82db526e-97be-4d10-ba0e-35e20fcbf488
+l	java:S106/"+Replace this use of System.out by a logger.( €‰+8Õ–õ «2J$519a1f2a-677b-45cc-905f-1c894eac7f5e
+m	java:S106;"+Replace this use of System.out by a logger.(×Â†Ú8×–õ «2J$d48937d9-9bc8-4e99-bcf6-19d0be801a3e
+‚	java:S899C";Do something with the "boolean" value returned by "delete".(‚ÜÓ¶úÿÿÿÿ8û¶Œ «2J$0bddba33-f80a-4932-a0e6-c4654cf5bf07
 –
-java:S4042F"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(‚ÜÓ¶úÿÿÿÿ8û¶Œ «2J$c835c819-4a62-4ee8-b6df-5bde4c4190ee
+java:S4042C"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(‚ÜÓ¶úÿÿÿÿ8û¶Œ «2J$126174a2-7ff4-4fac-b342-2af025c68599
